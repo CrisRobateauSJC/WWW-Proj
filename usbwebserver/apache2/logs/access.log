@@ -1,1 +1,5 @@
-::1 - - [25/Apr/2025:19:42:07 -0600] "GET / HTTP/1.1" 200 425
+::1 - - [26/Apr/2025:03:14:31 -0600] "GET / HTTP/1.1" 200 425
+::1 - - [26/Apr/2025:03:14:32 -0600] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [26/Apr/2025:03:14:35 -0600] "GET /Project_andrewin_robateau_godoy/ HTTP/1.1" 500 -
+::1 - - [26/Apr/2025:03:14:39 -0600] "GET /basic.php HTTP/1.1" 500 -
+::1 - - [26/Apr/2025:03:14:42 -0600] "GET /Project_andrewin_robateau_godoy/ HTTP/1.1" 500 -

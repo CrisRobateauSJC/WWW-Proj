@@ -2,11 +2,13 @@
 include 'includes/header.php';
 include 'includes/nav.php';
 ?>
+<!--
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
     <script src="js/script.js"></script>
 </head>
+-->
 <main>
   <section class="hero">
     <h1>Welcome to SJC Book Haven</h1>
