@@ -46,6 +46,3 @@
     $week[] = "Sat"; //adding element to the end of the array
     
     ?>
-    <br>
-    <a href='processForm.php?name=John'> For John </a>
-</body>
