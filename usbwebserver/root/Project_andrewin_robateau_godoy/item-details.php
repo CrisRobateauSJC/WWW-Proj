@@ -41,7 +41,7 @@ $item = $itemResult->fetch_assoc();
         <input type="hidden" name="item_id" value="<?php echo $item_id; ?>">
         <label for="quantity">Quantity:</label>
         <input type="number" name="quantity" id="quantity" value="1" min="1" max="<?php echo $item['quantity']; ?>" required>
-        <button type="submit">Add to Cart</button>
+        <button type="submit" name="add">Add to Cart</button>
       </form>
     <?php else: ?>
       <p style="color: red;"><strong>Out of Stock</strong></p>

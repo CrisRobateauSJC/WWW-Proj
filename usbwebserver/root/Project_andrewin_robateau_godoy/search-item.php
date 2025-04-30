@@ -12,7 +12,7 @@ if (isset($_GET['q']) && !empty(trim($_GET['q']))) {
     // Search from the header search box
     $searchTerm = $conn->real_escape_string(trim($_GET['q']));
     $query = "SELECT item_id, item_name, price FROM items 
-              WHERE item_name LIKE '%$searchTerm%' OR brand LIKE '%$searchTerm%' OR description LIKE '%$searchTerm%'";
+              WHERE item_name LIKE '%$searchTerm%' OR brand LIKE '%$searchTerm%' OR description LIKE '%$searchTerm%' OR subcategory LIKE'%$searchTerm%'";
     $result = $conn->query($query);
     $searchPerformed = true;
 } elseif (isset($_GET['category']) || isset($_GET['brand']) || isset($_GET['min_price']) || isset($_GET['max_price'])) {
